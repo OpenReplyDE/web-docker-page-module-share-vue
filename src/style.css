@@ -56,6 +56,7 @@ button:focus-visible {
 
 .card {
   padding: 2em;
+  background: #747bff;
 }
 
 #app {

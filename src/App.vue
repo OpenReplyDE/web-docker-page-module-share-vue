@@ -3,10 +3,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>
+  <div class="card">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld msg="Page Module" desc="This module is built with Vue. And uses the global shared vue-module from webdocker"/>
 </template>
 
 <style scoped>
