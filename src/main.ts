@@ -1,14 +1,11 @@
 import { App as VueApp, createApp } from "vue";
 
 import App from "./App.vue";
+import "./style.css";
 const elementName = "page-module-share-vue";
 class PageModuleShareVue extends HTMLElement {
   private app: VueApp | null = null;
   private mountPoint: HTMLElement | null = null;
-
-  static get observedAttributes() {
-    return ["user-type"];
-  }
 
   connectedCallback() {
     this.mountPoint = document.querySelector(elementName);
