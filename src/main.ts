@@ -1,6 +1,3 @@
-import "@openreply/pattern-library/styles";
-import "@obi-dbs/customer-ui-components/styles";
-
 import { App as VueApp, createApp } from "vue";
 
 import App from "./App.vue";
