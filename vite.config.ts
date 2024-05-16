@@ -23,6 +23,8 @@ export default defineConfig(({ mode }) => {
         module: "page-module-share-vue",
         type: "page",
         pages: [".*"],
+        scope: "webdocker",
+        use: { vue: "vue-module" },
       }),
     ],
     build: {
